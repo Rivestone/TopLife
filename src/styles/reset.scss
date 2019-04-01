@@ -1,0 +1,39 @@
+html, body, div, span,
+h1, h2, h4, p, a, img, ol, ul, li, footer, header, select
+{
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+select,
+input,
+button {
+    background: none;
+    border: 0;
+    color: inherit;
+    font: inherit;
+    line-height: normal;
+    overflow: visible;
+    padding: 0;
+    -webkit-appearance: button;
+    -webkit-user-select: none;
+       -moz-user-select: none;
+        -ms-user-select: none;
+    &:focus{
+      outline: none;
+    }
+}
+input::-moz-focus-inner,
+button::-moz-focus-inner {
+    border: 0;
+    padding: 0;
+}
+a{
+	color: inherit;
+}
+ul{
+	list-style-type: none;
+}

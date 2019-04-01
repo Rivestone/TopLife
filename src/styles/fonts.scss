@@ -1,0 +1,19 @@
+body {
+  font-family: sans-serif;
+}
+@font-face {
+  font-family: 'Sans-semi';
+  src: url(../fonts/opensans-semibold.woff)format("woff"),
+  url(../fonts/opensans-semibold.ttf)format("ttf");
+}
+@font-face {
+  font-family: 'Sans-regular';
+  src: url(../fonts/opensans-regular.woff)format("woff"),
+  url(../fonts/opensans-regular.ttf)format("ttf");
+}
+@font-face {
+  font-family: 'Bebas';
+  src: url(../fonts/bebas_neue_bold.woff)format("woff"),
+  url(../fonts/bebas_neue_bold.ttf)format("ttf"),
+  url(../fonts/bebas_neue_bold.eot)format("eot");
+}

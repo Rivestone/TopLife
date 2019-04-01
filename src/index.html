@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>TopLife</title>
+</head>
+<body>
+  <main class="p-test">
+    <div class="p-test__container">
+      <section class="b-polythene">
+        <h2 class="b-polythene__title">Прием полиэтилена</h2>
+        <p class="b-polythene__description">Принимаем все виды полиэтилена: ПНД пакеты, стрейч-пленку, цветные или загрязненные отходы ПВД</p>
+        <ul class="b-advantages-list">
+          <li class="b-advantages-list__item"><img src="../src/img/hours.png" alt=""><span>Пункт приема работает 24/7</span></li>
+          <li class="b-advantages-list__item"><img src="../src/img/location.png" alt=""><span>Вывоз из любого района Москвы и МО </span></li>
+          <li class="b-advantages-list__item"><img src="../src/img/forklif.png" alt=""><span>Бесплатная погрузка и разгрузка</span></li>
+          <li class="b-advantages-list__item"><img src="../src/img/wallet.png" alt=""><span>Оплата удобным способом в день сдачи </span></li>
+        </ul>
+      </section>
+      <section class="b-form">
+        <form>
+          <h4 class="b-form__title">Мы заплатим вам<div>Заявка на расчет</div>
+          </h4>
+          <div class="form-inner">
+
+
+
+            <div>
+              <label for="ageInputId">Вес, кг</label>
+              <output name="ageOutputName" id="ageOutputId">24</output>
+              <input class="range-slider" type="range" name="ageInputName" id="ageInputId" value="24" min="0" max="1000" oninput="ageOutputId.value = ageInputId.value">
+            </div>
+
+            <div>
+              <label for="file-upload" class="file-upload">Оценить по фото
+                <span><img src="../src/img/cross.png" alt=""></span>
+              </label>
+              <input id="file-upload" type="file">
+            </div>
+
+
+
+            <div class="b-select-source">
+              <label for="select-source">Вид вторсырья</label>
+              <select id="select-source" name="">
+                <option value="">Полиэтилен</option>
+                <option value="">Полиэтилен 2</option>
+                <option value="">Полиэтилен 3</option>
+              </select>
+            </div>
+
+            <div class="b-form__delivery">
+              <label class="custom-radio">
+                <input name=radio value="self" type="radio" checked>Привезу сам
+                <span class="checkmark"></span>
+              </label>
+              <label class="custom-radio">
+                <input name=radio value="delivery" type="radio">Нужен вывоз
+                <span class="checkmark"></span>
+              </label>
+            </div>
+            <div>
+              <input type="text" placeholder="Ваше имя">
+            </div>
+            <div>
+              <input type="tel" placeholder="Ваш телефон">
+            </div>
+          </div>
+
+          <input class="b-form__submit-btn" type="submit" value="Отправить">
+          <small class="b-form__personal-info">Отправляя сообщение вы соглашаетесь на
+            <a href="">обработку персональных данных</a></small>
+          </form>
+        </section>
+      </div>
+    </main>
+  </body>
+  </html>
